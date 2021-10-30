@@ -25,6 +25,8 @@ nav {
     justify-content: flex-end;
     align-items: center;
     position: fixed;
+    top: 0px;
+    background-color: black;
 }
 
 #tea-logo {
@@ -32,6 +34,7 @@ nav {
     left: 10px;
     top: 10px;
     height: 50px;
+    display: inline;
 }
 
 .list-items {
@@ -44,3 +47,54 @@ nav li {
     display: inline;
     text-decoration: underline;
 }
+
+.mission {
+    background-image: url(../img/img-mission-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 1200px;
+    margin: 69px auto 10px auto;
+    display: flex;
+    align-items: center;
+}
+
+.mission-text {
+    width: 100%;
+    background-color: black;
+}
+
+.mission-text h2 {
+    padding: 10px;
+}
+
+.mission-text h4 {
+    padding: 10px;
+}
+
+.tea-of-the-month {
+    width: 1000px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.tom-h2, 
+.tom-h4 {
+    padding: 10px;
+}
+
+#img1,
+#img2,
+#img3,
+#img4,
+#img5 {
+    height: 200px;
+    width: 300px;
+}
+
+figure {
+    margin: 10px 10px;
+}
+
