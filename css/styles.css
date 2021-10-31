@@ -133,3 +133,19 @@ figure {
     padding: 20px;
 }
 
+.footer {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.copyright {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.copyright > h5 {
+    margin-left: 20px;
+}
