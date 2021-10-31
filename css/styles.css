@@ -98,3 +98,38 @@ figure {
     margin: 10px 10px;
 }
 
+.location-div {
+    background-image: url(../img/img-locations-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 1200px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+}
+
+.locations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#downtown,
+#east-bayside,
+#oakdale {
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    margin: 20px;
+}
+
+#downtown h3,
+#east-bayside h3,
+#oakdale h3 {
+    padding: 20px;
+}
+
